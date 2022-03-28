@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-container">
+            <h1>Library</h1>
+            <div class="log">
+                <p>Total:</p>
+                <div id="total-score">0</div>
+                <div class="read">
+                    <div id="read-color-box" class="color-box"></div>
+                    <p>Read:</p>
+                </div>
+                <div id="read-score">0</div>
+                <div class="not-read">
+                    <div id="not-read-color-box" class="color-box"></div>
+                    <p>Not Read:</p>
+                </div>
+                <div id="not-read-score">0</div>
+            </div>
+        </div>
+    </div>
+    <div class="library">
+        <button id="add-book"><em>+ Add Book</em></button>
+        <div class="card-container"></div>
+    </div>
+    <div class="form">
+        <h2>What Book?</h2>
+        <div class="form-container">
+            <div class="title-input">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div class="author-input">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author">
+            </div>
+            <div class="checkbox-input">
+                <label for="read-checkbox">Have you read the book?</label>
+                <input type="checkbox" id="read-checkbox" name="read-checkbox">
+            </div>
+        </div>
+        <button id="submit-form">Add!</button>
+    </div>
+</body>
+</html>
