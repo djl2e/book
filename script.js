@@ -5,14 +5,16 @@ let notReadScore = 0;
 
 // DS
 
-function Book(title, author, isRead) {
-    this.title = title;
-    this.author = author;
-    this.isRead = isRead;
-}
+class Book {
+    constructor(title, author, isRead) {
+        this.title = title;
+        this.author = author;
+        this.isRead = isRead;
+    }
 
-Book.prototype.toggleRead = function() {
-    this.isRead = !this.isRead;
+    toggleRead() {
+        this.isRead = !this.isRead;
+    }
 }
 
 
