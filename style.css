@@ -36,6 +36,8 @@ button:hover {
     cursor: pointer;
 }
 
+/* HEADER */
+
 .header {
     position: relative;
     z-index: 10;
@@ -85,6 +87,8 @@ h1 {
 #not-read-color-box {
     background-color: var(--red);
 }
+
+/* MAIN CARD LIBRARY */
 
 .library {
     min-height: 90vh;
@@ -154,6 +158,8 @@ h1 {
 .opaque {
     opacity: 0.3;
 }
+
+/* MODAL FORM */
 
 .form {
     visibility: hidden;
